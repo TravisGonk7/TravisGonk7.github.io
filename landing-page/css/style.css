@@ -1,0 +1,139 @@
+#logo {
+	width : 5rem;
+	height : 5rem;
+	}
+	#boss {
+	font-size : 4.6rem;
+	}
+	main {
+	font-weight : bold;
+	color : black;
+	}
+	.wrapper {
+	margin : auto;
+	width : 85%;
+	}
+	#scooter {
+	margin-left : 2.8rem;
+	width : 80%;
+	}
+	#contact {
+	background-color : white;
+	margin : auto;
+	width : 88%;
+	text-align : center;
+	border : none;
+	box-shadow : 3px 3px 3px 3px grey;
+	border-radius : 15px 15px 15px 15px;
+	}
+	fieldset {
+	border : none;
+	}
+	input {
+	background-color : #eeee;
+	border : none;
+	}
+	#drive {
+	margin : auto;
+	font-size : 0.9rem;
+	border : none;
+	border-radius : 5px;
+	width : 15rem;
+	font-weight : bold;
+	color : black;
+	background-color : #57eeab;
+	}
+	.wrapper2 {
+	margin : auto;
+	width : 80%;
+	}
+	footer {
+	margin : auto;
+	width : 100%;
+	background-color : #fffd8c;
+	}
+	#form2 {
+	display : flex;
+	}
+	#set22 {
+	text-align : center;
+	}
+	#City {
+	padding-top : 0.25rem;
+	border-radius : 15px 15px 15px 15px;
+	width : 60%;
+	}
+	#hours {
+	padding-top : 0.25rem;
+	padding-bottom : 0.25rem;
+	border-radius : 15px 15px 15px 15px;
+	width : 25%;
+	margin-right : 0.75rem;
+	}
+	#calculate {
+	margin-top : 0.8rem;
+	font-size : 1.5rem;
+	border : none;
+	border-radius : 5px;
+	width : 14rem;
+	font-weight : bold;
+	color : #fff;
+	background-color : #ff848c;
+	}
+	.icons {
+	padding-top : 1rem;
+	display : flex;
+	justify-content : space-around;
+	}
+	@media (min-width: 749px) {
+	#calculate {
+	font-size : 1.6rem;
+	width : 65rem;
+	}
+	.input23 {
+	text-align : left;
+	}
+	#fname, #lname, #phone, #email {
+	width : 98%;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	}
+	main {
+	margin-right : 13rem;
+	}
+	.icons {
+	margin : auto;
+	width : 60%;
+	}
+	#hour {
+	width : 10px;
+	}
+	#calculate {
+	width : 12rem;
+	}
+	.icons {
+	margin : auto;
+	}
+	#set22 {
+	text-align : left;
+	}
+	}
+	@media (min-width: 1280px) {
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
