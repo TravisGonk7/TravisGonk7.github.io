@@ -1,57 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+
 #logo {
+	margin-left:1rem;
 	width : 5rem;
 	height : 5rem;
 	}
+
+
 	#boss {
+	font-family: 'montserrat-bold', sans-serif;;
+	font-weight: bold;
 	font-size : 4.6rem;
+	color:#333131;
 	}
-	main {
-	font-weight : bold;
-	color : black;
-	}
+h1{
+	font-size:2.1rem;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	font-family:montserrat
+
+}
 	.wrapper {
+	font-family:Montserrat, sans-serif;
 	margin : auto;
-	width : 85%;
 	}
+
 	#scooter {
 	margin-left : 2.8rem;
 	width : 80%;
 	}
+
+	fieldset {
+		width:90%;
+		border :none;
+		}
 	#contact {
 	background-color : white;
 	margin : auto;
-	width : 88%;
+	width : 80%;
 	text-align : center;
 	border : none;
 	box-shadow : 3px 3px 3px 3px grey;
 	border-radius : 15px 15px 15px 15px;
+	padding-bottom:1rem;
 	}
-	fieldset {
-	border : none;
+
+	#check{
+		text-align: center;
 	}
+
+	button{
+		width: 80%;
+		border-radius: 7px 7px 7px 7px;
+
+	}
+	
 	input {
-	background-color : #eeee;
-	border : none;
+	margin-top:5px;
+	background-color: #eeee;
+	border :none;
+	border-radius: 7px 7px 7px 7px;
 	}
-	#drive {
-	margin : auto;
-	font-size : 0.9rem;
-	border : none;
-	border-radius : 5px;
-	width : 15rem;
-	font-weight : bold;
-	color : black;
+
+	#drive{
+	padding-top:0.75rem;
+	padding-bottom:0.75rem;
+	font-size:1rem;
+	font-weight:bold;
 	background-color : #57eeab;
 	}
-	.wrapper2 {
-	margin : auto;
-	width : 80%;
-	}
-	footer {
-	margin : auto;
-	width : 100%;
-	background-color : #fffd8c;
-	}
+
+footer{
+width:100%;
+background-color:#fffd8c;
+}
 	#form2 {
 	display : flex;
 	}
@@ -61,13 +85,13 @@
 	#City {
 	padding-top : 0.25rem;
 	border-radius : 15px 15px 15px 15px;
-	width : 60%;
+	width : 25%;
 	}
 	#hours {
 	padding-top : 0.25rem;
 	padding-bottom : 0.25rem;
 	border-radius : 15px 15px 15px 15px;
-	width : 25%;
+	width : 17%;
 	margin-right : 0.75rem;
 	}
 	#calculate {
@@ -80,45 +104,113 @@
 	color : #fff;
 	background-color : #ff848c;
 	}
-	.icons {
-	padding-top : 1rem;
+	.icons{
 	display : flex;
 	justify-content : space-around;
 	}
-	@media (min-width: 749px) {
-	#calculate {
-	font-size : 1.6rem;
-	width : 65rem;
-	}
-	.input23 {
-	text-align : left;
-	}
-	#fname, #lname, #phone, #email {
-	width : 98%;
-	padding-top : 10px;
-	padding-bottom : 10px;
-	}
-	main {
-	margin-right : 13rem;
-	}
-	.icons {
-	margin : auto;
-	width : 60%;
-	}
-	#hour {
-	width : 10px;
-	}
-	#calculate {
-	width : 12rem;
-	}
-	.icons {
-	margin : auto;
-	}
-	#set22 {
-	text-align : left;
-	}
-	}
-	@media (min-width: 1280px) {
+	
+	@media (min-width:550px) {
+
+		.wrapper{
+			margin:auto;
+			width:80;
+		}
+
+		#logo{
+			margin-right:13rem;}
+
+		#boss{
+				margin-right:13rem;}
+
+		#fname, #lname, #phone, #email{
+			width: 90%;
+			padding-top:10px;
+			padding-bottom:10px;}
+		
+		.input23{
+			text-align:left;
+			margin-left:1rem;}
+		
+		#drive{
+			width:87%;}
+		
+		#form2{
+			display: flex;
+
+		}
+		
+		#set22{
+			text-align: center;;
+		}
+
+		.hour{
+			width:10%;
+			}
+		.city{
+			width:25%;
+			margin-right:10px;
+		}
+
+		#calculate{
+			padding-top:0.25rem;
+			padding-bottom:0.25rem;
+			width:40%;
+			margin-left:15px;
+			
+		}
+		.icons{
+			margin:auto;
+			width:60%;
+		
+		}
+		}
+	
+	@media (min-width: 1000px) {
+		#city{
+			width:25%
+		}
+
+		
+
+		button{
+			width:100%;
+
+		}
+		.contact{
+			width:130%;
+		}
+
+		.icons{
+			width:30%;
+			
+		}
+
+		#logo{
+			margin-left:8rem;
+
+		}
+		.wrapper2{
+			display:flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+
+		}
+		#scooter{
+			display:none;
+		}
+		.wrapper{
+			display:grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr;
+			grid-gap:25rem;;
+		}
+		body{
+			background-image: url(../icons/scooter.svg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 50%;
+		}
 	}
 
 

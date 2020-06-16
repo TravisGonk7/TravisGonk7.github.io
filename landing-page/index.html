@@ -2,26 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRAN0504 / LANDING PAGE</title>
 </head>
 <body>
 <!---This Is My Landing Page HTML-->
+<header>
+<img id="logo" src="image/logo.png">
+</header>
+
 <div class="wrapper">
 
-<img id="logo" src="image/logo.png">
-
-<Main id="boss"> Want to be your own boss</main>
-
+<div class="a1">
+    
+<main id="boss"> Want to be your own boss</main>
 <h1>Start Today And Make Up to $30/Hr Driving Your Own Vehicle With Dash!</h1>
+ </div>
 
 <img id="scooter"src="icons/scooter.svg">
 
 
 <form id="contact">
-<fieldset id="">
+<fieldset>
 
 <h2>Apply Now</h2>
 <h3>Enter Your Info Below</h3>
@@ -45,7 +50,7 @@
   <br>   
 
 <div>
-<input id="email" type="text" name="Email"
+<input id="email" type="text" name="email"
         placeholder="Email">
   </div>
   <br>
@@ -63,20 +68,25 @@
 <br>
 
 </fieldset>
+<p id="check"> Already Applied? <a href="#">Check Your Application Status Here</a></p>
 </form>
-        </div>
-
+</div>
 <footer>
+
+   
     <div class="wrapper2">
+    <div class="wrapper3">
     <h4>See How Much You Can</h4>
-        
     <h5>How Many Hours Do You Want To Drive With Us This Week</h5>
+    </div>
+    
+
         
 <form id="form2">
     <fieldset id="set22">
-        <input id="hours" type="text" name="hours" placeholder="Hours">
+        <input id="hours" type="text" name="hour" placeholder="Hours">
       
-        <input id="City" type="text" name="City" placeholder="City">
+        <input id="city" type="text" name="city" placeholder="City">
 
         <button id="calculate"type="submit">CALCULATE</button>
     
@@ -89,7 +99,8 @@
             <img id="twitter"    src="icons/twitter.svg">
             <img id="linkedin"   src="icons/linkedin.svg">
         </div>
-</div>
+    </div>
+
 </footer>
 </body>
 </html>
