@@ -1,0 +1,460 @@
+/* Mobile View Point Starts 365px */
+
+.wrapper{
+	overflow-x: hidden;
+	width:100%;
+	margin: auto;
+}
+
+.header{
+	height:175px;
+	text-align: center;
+	background-color:#3C3B3A;
+}
+
+#logo{
+	width:88px;
+	height:54px;
+}
+
+a#home{
+	margin-bottom: 22px;
+	font-weight: bold;
+}
+
+a#about{ 
+	margin-bottom:22px;
+
+}
+
+a#contact{
+}
+
+.links a{
+	
+	line-height: 21px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:white;
+	text-decoration: none;
+	font-size:18px;
+	font-family:'raleway' , sans-serif;
+	margin:auto;}
+
+h1{
+	font-size:40px;
+	font-family: 'Raleway', sans-serif;
+	color: #3C3B3A;
+	margin-bottom:19px;
+	margin-left: 10px;
+}
+
+.iconss{
+	text-align: center;
+	margin-bottom:30px;
+
+}
+
+.p1{
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	color:#3C3B3A;
+	line-height:35px;
+	margin-left: 10px;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#b1{
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 24px;
+	background-color: #26A682;
+	width: 300px;
+	height: 50px;
+	border-radius: 40px;
+	box-shadow : 0px 10px 10px #124A3A;
+	opacity: 1;
+}
+
+#discover{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height:186px;
+	margin-top:20px;
+
+}
+
+#school{
+	width:100%;
+	height:186px;
+	border:1px solid;
+}
+
+h2{
+	font-weight:100; 
+	color:#3C3B3A;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-size: 32px;
+	margin-left: 10px;
+}
+
+h3{
+
+	color:#26A682;
+	font-weight:lighter;
+	font-size:24px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:-10px;
+	margin-left: 10px;
+
+}
+.button2{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 192px;
+
+}
+
+#b2{
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	box-shadow: 0px 10px 10px #124A3A;
+	background-color:#26A682;
+	border-radius: 40px;
+	width:146px;
+	height:46px;
+	/*margin-right: -150px;*/
+}
+
+.p2{
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height:35px;
+}
+
+.president{
+	width:100%;
+	height:637px;
+	background-color:#3C3B3A;
+}
+
+.president img{
+	border-radius: 50%;
+	border:5px solid white;
+	display: block;
+    margin: 0 auto;
+	width:175px;
+	height:175px;
+	margin-bottom: 28px;
+	
+}
+
+.bio {
+	margin-bottom: 22px;
+	color: white;
+	text-align: center;
+	font-size:24px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.bio h5{
+	margin-top:-22px;
+	font-weight: normal;
+
+}
+
+.p3{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:white; 
+	line-height: 35px;
+	margin-top: -28px;
+	text-align: center;
+
+
+}
+
+#entertainement{
+	width:100%;
+	height:200px;
+	margin-bottom: 10px;
+}
+
+.l2 h2{
+	color:#3C3B3A;
+	font-size: 32px;
+	text-align: left;
+
+}
+
+.l2 h3{
+	color:#26A682;
+	font-size: 24px;
+}
+
+.p4{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px; 
+	text-align:left;
+	line-height: 35px;
+	font-weight: lighter;
+	margin-top:-10px;
+	margin-left: 10px;
+
+}
+
+
+.button3{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 192px;
+}
+
+#b3{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color:white;
+	box-shadow:3px 3px 3px 3px #124A3A;
+	background-color:#26A682;
+	border-radius: 30px 30px 30px 30px;
+	width:146px;
+	height:46px;
+
+}
+
+footer{
+	height: 125px;
+	width:100%;
+	color:white;
+	background-color: #3C3B3A;
+	text-align: center;
+
+}
+
+h6#follow{
+	margin-top: 12px
+}
+
+h6{ 
+	font-size: 24px;
+	color:white;
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+img#facebook{
+	margin-right: 12px;
+}
+
+img#instagram{
+	margin-right: 12px;
+
+}
+
+img#twitter{
+	margin-right:12px;
+}
+img#youtube{
+	margin-right:12px;
+}
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.icons img{
+	margin-top:  -15px
+}
+
+@media(min-width:765px){
+
+.header{
+	display: flex;
+	flex-direction: row;
+	height:75px;
+	justify-content:space-around;}
+
+#logo{
+	max-width: 100%;
+	margin-top:10px;
+	margin-left: 39px;}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: flex-end;
+	max-width: 100%;}
+
+.links a{
+	margin:auto;}
+
+a#home , a#about , a#contact{
+	margin-right:40px;
+	margin-left: 40px;
+	margin-top:40px;}
+
+
+	h1{ font-size:72px;
+		text-align: left;
+		margin-left: 10px;
+		line-height: 85px;}
+
+
+	#p1{
+		font-size: 24px;
+		text-align: left;}
+	h2{
+		font-size:40px;
+		text-align: left;
+		line-height: 47px;
+		margin-left: 10px;}
+	h3{
+		margin-left: 10px;
+		font-size:32px;
+		line-height: 32px;}
+	.p2{
+		font-size:18px;
+		line-height: 35px;
+		text-align: left;
+		margin-left: 10px;}
+		
+	.president{
+		height:445px;
+		display: flex;
+		flex-basis: 50%;
+	}
+
+	.p3{
+		font-size:24px;
+		flex-basis: 50%;
+		margin-left:70px;
+		color:#F2F2F2;
+		opacity: 1;
+		margin-top: 20px;}
+
+	h4 , h5{
+		margin-left:80px;
+	}
+
+	.president img{
+		margin-top:40px;
+		margin-left:80px;
+	}
+
+
+
+
+}
+
+
+@media(min-width: 1000px){
+	.header{
+	display: flex;
+	flex-direction: row;
+	height:75px;
+	justify-content:space-around;}
+
+#logo{
+	max-width: 100%;
+	margin-top:10px;
+	margin-left: 39px;}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: flex-end;
+	max-width: 100%;}
+
+.links a {
+	margin:auto;}
+
+a#home , a#about , a#contact{
+	margin-right:40px;
+	margin-left: 40px;
+	margin-top:40px;}
+	
+	h1{
+	margin-top:35px;
+	margin-left:60px;
+	text-align: left;}
+
+	}
+
+	#p1{
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	line-height: 35px;
+	margin-left:60px;
+	text-align: left;}
+	}
+	.imagebreak1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-right: 30px;}
+
+}
+
+img#entertainement{
+	display: block;
+	width:218px;
+	height:375px;
+	order:1;
+	margin-top:20px;
+	margin-left: 70px;}
+
+
+.p9{flex-basis: 50%;}
+
+
+.p9 h1{
+	margin-left: 50px;}
+
+.p9 h2{
+	margin-top: -20px;
+	margin-left: 50px;}
+
+.p9 p{
+	margin-top:-15px;
+	margin-left:50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
