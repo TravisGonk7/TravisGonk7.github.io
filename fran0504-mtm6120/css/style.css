@@ -3,29 +3,23 @@
 .wrapper{
 	overflow-x: hidden;
 	width:100%;
-	margin: auto;
-}
+	margin: auto;}
 
 .header{
 	height:175px;
 	text-align: center;
-	background-color:#3C3B3A;
-}
+	background-color:#3C3B3A;}
 
 #logo{
 	width:88px;
-	height:54px;
-}
+	height:54px;}
 
 a#home{
 	margin-bottom: 22px;
-	font-weight: bold;
-}
+	font-weight: bold;}
 
 a#about{ 
-	margin-bottom:22px;
-
-}
+	margin-bottom:22px;}
 
 .links a{
 	
@@ -44,29 +38,24 @@ h1{
 	font-family: 'Raleway', sans-serif;
 	color: #3C3B3A;
 	margin-bottom:19px;
-	margin-left: 10px;
-}
+	margin-left: 10px;}
 
 img#iconss{
 	display:block;
 	text-align: center;
-	margin-bottom:30px;
-
-}
+	margin-bottom:30px;}
 
 .p1{
 	font-family: 'Raleway', sans-serif;
 	font-size:20px;
 	color:#3C3B3A;
 	line-height:35px;
-	margin-left: 10px;
-}
+	margin-left: 10px;}
 
 .button{
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
+	align-items: center;}
 #b1{
 	font-weight: bold;
 	display: flex;
@@ -80,23 +69,19 @@ img#iconss{
 	height: 50px;
 	border-radius: 40px;
 	box-shadow : 0px 10px 10px #124A3A;
-	opacity: 1;
-}
+	opacity: 1;}
 
 #discover{
 	display: block;
 	text-align: center;
 	width: 100%;
 	height:186px;
-	margin-top:20px;
-
-}
+	margin-top:20px;}
 
 #school{
 	width:100%;
 	height:186px;
-	border:1px solid;
-}
+	border:1px solid;}
 
 h2{
 	font-weight:100; 
@@ -104,8 +89,7 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	font-style: italic;
 	font-size: 32px;
-	margin-left: 10px;
-}
+	margin-left: 10px;}
 
 h3{
 
@@ -114,15 +98,12 @@ h3{
 	font-size:24px;
 	font-family: 'Raleway', sans-serif;
 	margin-top:-10px;
-	margin-left: 10px;
+	margin-left: 10px;}
 
-}
 .button2{
 	display: flex;
 	justify-content: flex-end;
-	margin-left: 192px;
-
-}
+	margin-left: 192px;}
 
 #b2{
 	font-family: 'Raleway', sans-serif;
@@ -131,22 +112,18 @@ h3{
 	background-color:#26A682;
 	border-radius: 40px;
 	width:146px;
-	height:46px;
-	/*margin-right: -150px;*/
-}
+	height:46px;}
 
 .p2{
 	font-weight: lighter;
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
-	line-height:35px;
-}
+	line-height:35px;}
 
 .president{
 	width:100%;
 	height:637px;
-	background-color:#3C3B3A;
-}
+	background-color:#3C3B3A;}
 
 .president img{
 	border-radius: 50%;
@@ -155,23 +132,18 @@ h3{
     margin: 0 auto;
 	width:175px;
 	height:175px;
-	margin-bottom: 28px;
-	
-}
+	margin-bottom: 28px;}
 
 .bio {
 	margin-bottom: 22px;
 	color: white;
 	text-align: center;
 	font-size:24px;
-	font-family: 'Raleway', sans-serif;
-}
+	font-family: 'Raleway', sans-serif;}
 
 .bio h5{
 	margin-top:-22px;
-	font-weight: normal;
-
-}
+	font-weight: normal;}
 
 .p3{
 	font-family: 'Raleway', sans-serif;
@@ -179,16 +151,12 @@ h3{
 	color:white; 
 	line-height: 35px;
 	margin-top: -28px;
-	text-align: center;
-
-
-}
+	text-align: center;}
 
 #entertainement{
 	width:100%;
 	height:200px;
-	margin-bottom: 10px;
-}
+	margin-bottom: 10px;}
 
 .l2 h2{
 	color:#3C3B3A;
@@ -339,7 +307,7 @@ a#home , a#about , a#contact{
 }
 
 
-@media(min-width: 1689px){
+@media(min-width: 1589px){
 	.header{
 	display: flex;
 	flex-direction: row;

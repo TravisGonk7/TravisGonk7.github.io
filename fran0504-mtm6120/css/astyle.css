@@ -546,14 +546,11 @@ img#bowling{
 }
 
 button{
-	margin-left: 100px;
-	margin
-}
+	margin-left: 100px;}
 
 img#fitness{
 	width:813px;
-	height:337px;
-}
+	height:337px;}
 
 img#climbing{
 	width:813px;
@@ -566,34 +563,4 @@ img#climbing{
 	justify-content: space-evenly;
 	margin-bottom: 70px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
