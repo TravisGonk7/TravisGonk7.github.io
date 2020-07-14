@@ -1,10 +1,14 @@
 /* Mobile View Point Starts 365px */
+/* CSS VALIDATED */
+/* Home Page StyleSheet */
+/* All img#**** Are img tag with id on them for targeting */
+/* All P1 P2 P3 P4 P5 P6 P7 P8 P9 Are For Grouping Paragraphs And H1 ( Some) Together For Easy Editing */
 
 .wrapper{
 	overflow-x: hidden;
 	width:100%;
 	margin: auto;}
-
+/* Header Adjustment */
 .header{
 	height:175px;
 	text-align: center;
@@ -33,6 +37,7 @@ a#about{
 	font-family:'raleway' , sans-serif;
 	margin:auto;}
 
+/* Top Content Adjustment */
 h1{
 	font-size:40px;
 	font-family: 'Raleway', sans-serif;
@@ -40,10 +45,15 @@ h1{
 	margin-bottom:19px;
 	margin-left: 10px;}
 
+
 img#iconss{
 	display:block;
 	text-align: center;
 	margin-bottom:30px;}
+
+img#iconsss{
+	display:none;
+}
 
 .p1{
 	font-family: 'Raleway', sans-serif;
@@ -71,6 +81,7 @@ img#iconss{
 	box-shadow : 0px 10px 10px #124A3A;
 	opacity: 1;}
 
+/* Image Adjustment */
 #discover{
 	display: block;
 	text-align: center;
@@ -83,6 +94,7 @@ img#iconss{
 	height:186px;
 	border:1px solid;}
 
+/* Headers But Different Adjustment Then h1*/
 h2{
 	font-weight:100; 
 	color:#3C3B3A;
@@ -91,6 +103,7 @@ h2{
 	font-size: 32px;
 	margin-left: 10px;}
 
+/* Green Text Below H2 */
 h3{
 
 	color:#26A682;
@@ -100,6 +113,7 @@ h3{
 	margin-top:-10px;
 	margin-left: 10px;}
 
+/* Button 2 Adjustment */
 .button2{
 	display: flex;
 	justify-content: flex-end;
@@ -120,6 +134,7 @@ h3{
 	font-size:16px;
 	line-height:35px;}
 
+/* Bio Of Person Adjustment */
 .president{
 	width:100%;
 	height:637px;
@@ -158,14 +173,6 @@ h3{
 	height:200px;
 	margin-bottom: 10px;}
 
-.l2 h2{
-	color:#3C3B3A;
-	font-size: 32px;
-	text-align: left;}
-
-.l2 h3{
-	color:#26A682;
-	font-size: 24px;}
 
 .p4{
 	font-family: 'Raleway', sans-serif;
@@ -176,6 +183,7 @@ h3{
 	margin-top:-10px;
 	margin-left: 10px;}
 
+/* Button 3 */
 
 .button3{
 	display: flex;
@@ -228,6 +236,9 @@ img#youtube{
 .icons img{
 	margin-top:  -15px}
 
+
+	/* ipad 765px viewpoint containing Adjustment For Viewpoint Change*/
+
 @media(min-width:765px){
 
 .header{
@@ -256,6 +267,15 @@ a#home , a#about , a#contact{
 	margin-left: 40px;
 	margin-top:40px;}
 
+img#iconss{
+	display:none;
+}
+
+img#iconsss{
+	display:initial;
+	margin-left:150px;
+	margin-bottom:50px;
+}
 
 	h1{ font-size:72px;
 		text-align: left;
@@ -307,6 +327,8 @@ a#home , a#about , a#contact{
 }
 
 
+/* Desktop Viewpoint containing Adjustment For Viewpoint Change */
+
 @media(min-width: 1589px){
 	.header{
 	display: flex;
@@ -333,12 +355,12 @@ a#home , a#about , a#contact{
 	margin-right:40px;
 	margin-left: 40px;
 	margin-top:40px;}
-
+/* Desk1 Contains Top Content For Easy Adjustment */
 	.desk1{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;}
-
+/* Contains Text */
 	.together{
 		flex-basis:40%;
 		align-self:flex-start;
@@ -375,10 +397,11 @@ a#home , a#about , a#contact{
 	margin-top:60px;
 	text-align: left;}
 
+/* Scroll Image */
 	img#scroll{
 		margin-left:850px;
 		margin-bottom:20px;}
-
+/* ImageBreak For Text Adjustment And Image Seperations using flex basics and Image Adjustment */ 
 	.imagebreak2{
 		display: flex;
 		flex-direction: row;

@@ -1,7 +1,16 @@
+/* CSS VALIDATED */
+/* About Page StyleSheet */
+/* Mobile View At 325PX;*/
+/* All img#**** Are img tag with id on them for targeting */
+/* All P1 P2 P3 P4 P5 P6 P7 P8 P9 Are For Grouping Paragraphs And H1 ( Some) Together For Easy Editing */
+
+
+
 .wrapper{
 	overflow-x: hidden;
 	width:100%;
 	margin: auto;}
+/* Theses Are The Pictures When View Point Are At 765px*/
 
 #bar{
 	display: none;
@@ -19,7 +28,7 @@
 }
 
 
-
+/* Header Adjustment */
 .header{
 	height:175px;
 	text-align: center;
@@ -58,6 +67,9 @@ main{
 	margin-top:25px;
 	margin-left: 10px;}
 
+/* End Of Header Adjustment */
+
+/* H1 Affects On 7 of them */
 
 h1{	text-align: left;
 	font-family: 'Raleway', sans-serif;
@@ -66,7 +78,7 @@ h1{	text-align: left;
 	font-weight: 600;
 	margin-left:10px;}
 
-
+/* Sub Text That Is Green Under 3 Of The H1 */
 h2{
 	color:#26A682;
 	text-align: left;
@@ -75,7 +87,7 @@ h2{
 	font-weight: lighter;
 	margin-left: 10px;}
 
-
+/* Adjustment Of The First Two Paragrahs */
 .p1 , .p2 {
 	font-size: 20px;
 	line-height: 35px;
@@ -83,6 +95,7 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	margin-left: 10px;}
 
+/* Adjustment On The Rest Of The Paragraph */
 
 .p3 , .p4 , .p5{
 	font-family: 'Raleway', sans-serif;
@@ -91,8 +104,22 @@ h2{
 	color: #3C3B3A;
 	margin-left:10px;}
 
+/* Container Holding About Text Adjustment */
 .container{
-	background-color: #26A682;}
+	position: relative;
+	text-align: center;
+	background-color: #26A682;
+	margin:0.5rem;}
+
+	.container h1 {
+		position: absolute;
+		text-align:center;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		color:white;
+		font-size:56px;
+		font-weight:600;}
 
 
 .container img{
@@ -103,21 +130,34 @@ h2{
 	margin:0 auto;
 	background:no-repeat;}
 
-img#about{
+
+
+img#about1{
+	width:100%;
+	height:200px;
 	margin-top: 25px;
 	display: block;}
 
+/* End Of Adjustment for container*/
+
+/* Image Adjustment */
 img#construction{
 	display:block;
 	margin:0 auto;
 	width:301px;
 	height:auto;}
-
+/* Adjustment Of Services Text On Image */
+.services{
+	background-color:#26A682;
+}
 img#services{
-	width:375px;
+	mix-blend-mode: darken;
+	background:no-repeat;
+	width:100%;
 	height:200px;
 	display: block;}
 
+/* Subcription Button With Paragraph Adjustment */
 .sub{
 	background-color:#3C3B3A;
 	width:auto;
@@ -154,6 +194,7 @@ button{
 	color:white;
 	font-size:20px;}
 
+/* Thank You Text */
 h3{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -161,7 +202,7 @@ h3{
 	font-weight: 700;
 	color: #3C3B3A;}
 
-
+/* Footer Adjustment */
 footer{
 	height: 125px;
 	width:100%;
@@ -214,6 +255,8 @@ img#twitter{
 img#youtube{
 	margin-right:12px;}
 
+
+
 .icons{
 	display: flex;
 	flex-direction: row;
@@ -222,6 +265,7 @@ img#youtube{
 .icons img{
 	margin-top:  -15px}
 
+/* End Of Mobile View */
 
 
 
@@ -230,11 +274,11 @@ img#youtube{
 
 
 
-
-
+/* Tablet Viewpoint 765 Px Adjustment */
 
 @media(min-width: 765px){
 
+/* More Header Adjustment */
 .header{
 	display: flex;
 	flex-direction: row;
@@ -268,7 +312,7 @@ main{
 	margin-top:35px;
 	margin-left:60px;
 	text-align: left;}
-
+/* The Two Starting Paragraph Together */
 .pt{
 	font-family: 'Raleway', sans-serif;
 	font-size:24px;
@@ -307,7 +351,22 @@ img#construction{
 	width:574px;
 	height:auto;}
 
-img#about{
+.container{
+	position:relative;
+	text-align:center;
+	margin:0.5rem;}
+
+	.container h1{
+		position: absolute;
+		text-align:center;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		color:white;
+		font-size:56px;
+	}
+
+img#about1{
 	width:100%;
 	height:200px;}
 
@@ -321,12 +380,13 @@ img#services{
 	margin:0.5rem;}
 
 .services h1{
+	font-size:56px;
 	position:absolute;
 	top:50%;
 	left:50%;
 	transform: translate(-50%, -50%);
 	color:white;}
-
+/* All Imagebreak (1,2,3,4) Are For Seperating Text And Image 50% Using Flex Basics */
 .imagebreak{
 	display: flex;
 	flex-direction: row;
@@ -467,8 +527,9 @@ h3{
 
 }
 
-
+/* Desktop ViewPoint Starts At 1322px*/
 @media(min-width: 1322px) {
+	/* All Of The Top Content All Together For Easy Adjustment And For Seperation Of The Content*/
 	.desk1{
 		display: flex;
 		flex-direction: row;
@@ -508,7 +569,7 @@ img#construction{
 .imagebreak4{margin-bottom: 70px;}
 
 
-img#about{
+img#about1{
 	height: 250px;
 	width:100%;
 	margin-top: 50px;
@@ -562,5 +623,4 @@ img#climbing{
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin-bottom: 70px;}
-
 }

@@ -1,9 +1,15 @@
+/* CSS VALIDATED */
+/* Mobile View At 325PX;*/
+/* Contact StyleSheet */
+/* All img#**** Are img tag with id on them for targeting */
+/* All P1 P2 P3 P4 P5 P6 P7 P8 P9 Are For Grouping Paragraphs And H1 ( Some) Together For Easy Editing */
+
 .wrapper{
 	overflow-x: hidden;
 	width:100%;
 	margin: auto;
 }
-
+/* Header Adjustment */
 .header{
 	height:175px;
 	text-align: center;
@@ -62,6 +68,7 @@ main{
 	margin-top: 20px;
 	margin-left: 10px;
 }
+/* Div Class Of IMG Targeting the image*/
 .img img{
 	display:block;
 	margin:0 auto;
@@ -69,7 +76,7 @@ main{
 	height:100%;
 	margin-bottom: 15px;
 }
-
+/* ID Name Of The Contact Form / Adjustment Of The Contact*/
 #contact2{
 	background-color:#26A682;
 	border-radius: 25px;
@@ -126,7 +133,7 @@ button{
 	height: 50px;
 	box-shadow: 0px 10px 10px #124A3A80;
 }
-
+/* Button Adjustment */
 #drive{
 	color:white;
 	font-family: 'Raleway', sans-serif;
@@ -135,7 +142,7 @@ button{
 	font-weight:700;
 	box-shadow: 0px 10px 10px #124A3A80;
 }
-
+/* Location Contains H1 H2 H3 / Paragraphs / Img */ 
 .location h1{
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
@@ -174,7 +181,7 @@ margin-left: 10px;}
 	border:none;
 
 }
-/*	Footer */
+/*	Footer Adjustment */
 footer{
 	height: 125px;
 	width:100%;
@@ -227,7 +234,7 @@ img#youtube{
 
 
 
-
+/* Ipad Viewpoint 765PX Contains More Adjustments With Viewpoint Change*/
 
 
 
@@ -334,6 +341,7 @@ button{
 	margin-left:65px;
 
 }
+/* Location Image */
 .googlemap{
 	height:100%;
 	width:768px;
@@ -347,9 +355,9 @@ button{
 }
 
 
+/* Desktop Viewpoint */
 
-
-@media(min-width: 1107px){
+@media(min-width: 1234px){
 
 	.header{
 		width:100%;
@@ -357,7 +365,7 @@ button{
 
 	#logo{
 		margin-right: 920px;}
-
+/* Contains All Top Content */
 	.bigdiv{
 		display: flex;
 		flex-direction: row;
