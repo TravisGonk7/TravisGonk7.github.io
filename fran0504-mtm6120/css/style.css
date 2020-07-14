@@ -27,9 +27,6 @@ a#about{
 
 }
 
-a#contact{
-}
-
 .links a{
 	
 	line-height: 21px;
@@ -50,7 +47,8 @@ h1{
 	margin-left: 10px;
 }
 
-.iconss{
+img#iconss{
+	display:block;
 	text-align: center;
 	margin-bottom:30px;
 
@@ -396,7 +394,7 @@ a#home , a#about , a#contact{
 	margin-left:60px;
 	text-align: left;}
 
-	}
+
 
 	#p1{
 	font-family: 'Raleway', sans-serif;
@@ -404,14 +402,23 @@ a#home , a#about , a#contact{
 	line-height: 35px;
 	margin-left:60px;
 	text-align: left;}
-	}
+
+
+	img#iconss{
+		display:none;}
+
+img#1icons{
+	margin-left:60px;
+	text-align:left}
+
+	
+
+
 	.imagebreak1{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	margin-right: 30px;}
-
-}
 
 img#entertainement{
 	display: block;
@@ -422,39 +429,19 @@ img#entertainement{
 	margin-left: 70px;}
 
 
-.p9{flex-basis: 50%;}
+.p4{flex-basis: 50%;}
 
 
-.p9 h1{
+.p4 h2{
 	margin-left: 50px;}
 
-.p9 h2{
+.p4 h3{
 	margin-top: -20px;
 	margin-left: 50px;}
 
-.p9 p{
+.p4 p{
 	margin-top:-15px;
 	margin-left:50px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
