@@ -3,7 +3,7 @@
 /* Home Page StyleSheet */
 /* All img#**** Are img tag with id on them for targeting */
 /* All P1 P2 P3 P4 P5 P6 P7 P8 P9 Are For Grouping Paragraphs And H1 ( Some) Together For Easy Editing */
-
+/*  Image Optimize For Web Browser */
 .wrapper{
 	overflow-x: hidden;
 	width:100%;
@@ -401,6 +401,7 @@ a#home , a#about , a#contact{
 	img#scroll{
 		margin-left:850px;
 		margin-bottom:20px;}
+	
 /* ImageBreak For Text Adjustment And Image Seperations using flex basics and Image Adjustment */ 
 	.imagebreak2{
 		display: flex;
