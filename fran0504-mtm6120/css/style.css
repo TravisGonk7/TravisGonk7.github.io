@@ -193,14 +193,11 @@ h3{
 .l2 h2{
 	color:#3C3B3A;
 	font-size: 32px;
-	text-align: left;
-
-}
+	text-align: left;}
 
 .l2 h3{
 	color:#26A682;
-	font-size: 24px;
-}
+	font-size: 24px;}
 
 .p4{
 	font-family: 'Raleway', sans-serif;
@@ -209,16 +206,13 @@ h3{
 	line-height: 35px;
 	font-weight: lighter;
 	margin-top:-10px;
-	margin-left: 10px;
-
-}
+	margin-left: 10px;}
 
 
 .button3{
 	display: flex;
 	justify-content: flex-end;
-	margin-left: 192px;
-}
+	margin-left: 192px;}
 
 #b3{
 	font-family: 'Raleway', sans-serif;
@@ -228,57 +222,43 @@ h3{
 	background-color:#26A682;
 	border-radius: 30px 30px 30px 30px;
 	width:146px;
-	height:46px;
-
-}
+	height:46px;}
 
 footer{
 	height: 125px;
 	width:100%;
 	color:white;
 	background-color: #3C3B3A;
-	text-align: center;
-
-}
+	text-align: center;}
 
 h6#follow{
-	margin-top: 12px
-}
+	margin-top: 12px}
 
 h6{ 
 	font-size: 24px;
 	color:white;
 	font-weight: lighter;
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
-}
+	text-align: center;}
 
 img#facebook{
-	margin-right: 12px;
-}
+	margin-right: 12px;}
 
 img#instagram{
-	margin-right: 12px;
-
-}
+	margin-right: 12px;}
 
 img#twitter{
-	margin-right:12px;
-}
+	margin-right:12px;}
 img#youtube{
-	margin-right:12px;
-}
+	margin-right:12px;}
 
 .icons{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-
-}
+	justify-content: center;}
 
 .icons img{
-	margin-top:  -15px
-}
+	margin-top:  -15px}
 
 @media(min-width:765px){
 
@@ -336,8 +316,7 @@ a#home , a#about , a#contact{
 	.president{
 		height:445px;
 		display: flex;
-		flex-basis: 50%;
-	}
+		flex-basis: 50%;}
 
 	.p3{
 		font-size:24px;
@@ -348,13 +327,11 @@ a#home , a#about , a#contact{
 		margin-top: 20px;}
 
 	h4 , h5{
-		margin-left:80px;
-	}
+		margin-left:80px;}
 
 	.president img{
 		margin-top:40px;
-		margin-left:80px;
-	}
+		margin-left:80px;}
 
 
 
@@ -362,7 +339,7 @@ a#home , a#about , a#contact{
 }
 
 
-@media(min-width: 1000px){
+@media(min-width: 1689px){
 	.header{
 	display: flex;
 	flex-direction: row;
@@ -388,6 +365,32 @@ a#home , a#about , a#contact{
 	margin-right:40px;
 	margin-left: 40px;
 	margin-top:40px;}
+
+	.desk1{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;}
+
+	.together{
+		flex-basis:40%;
+		align-self:flex-start;
+		text-align: left;}
+
+		.iconss img{
+			margin-left:60px;
+			margin-top:60px;
+			text-align:left}
+
+		img#iconss{
+				display:none;}
+
+		img#discover{
+			width:951px;
+			height:100%}
+
+		#b1{
+			margin-left: -200px;
+			margin-bottom:-150px;}
 	
 	h1{
 	margin-top:35px;
@@ -401,33 +404,53 @@ a#home , a#about , a#contact{
 	font-size:24px;
 	line-height: 35px;
 	margin-left:60px;
+	margin-top:60px;
 	text-align: left;}
 
+	img#scroll{
+		margin-left:850px;
+		margin-bottom:20px;}
 
-	img#iconss{
-		display:none;}
+	.imagebreak2{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-right: 30px;}
 
-img#1icons{
-	margin-left:60px;
-	text-align:left}
+	img#school{
+		height:337px;
+		width:813px;}
 
-	
+	.p2{
+		flex-basis:50%;}
 
+	.p2 p{
+		margin-left:10px;}
 
+	.president{
+		height:250px;
+		width:100%;
+		flex-basis: 50%;}
+
+	h4, h5{
+		margin-left:400px;
+		margin-top:-170px;}
+
+	.p3{
+		margin-left:350px;}
 	.imagebreak1{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-right: 30px;}
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-right: 30px;}
 
-img#entertainement{
-	display: block;
-	width:218px;
-	height:375px;
-	order:1;
-	margin-top:20px;
-	margin-left: 70px;}
-
+	img#entertainement{
+		height:337px;
+		width:813px;
+		display: block;
+		order:1;
+		margin-top:20px;
+		margin-left: 70px;}
 
 .p4{flex-basis: 50%;}
 
@@ -444,4 +467,7 @@ img#entertainement{
 	margin-left:50px;}
 
 }
+
+	
+
 
