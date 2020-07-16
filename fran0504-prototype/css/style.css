@@ -16,7 +16,7 @@
 
 #logo{
 	width:88px;
-	height:54px;margin-right: 920px;
+	height:54px;
 	opacity: 0.0;
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
