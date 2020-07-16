@@ -19,7 +19,8 @@
 #logo{
 	width:88px;
 	height:54px;
-}
+	animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;}
 
 a#home{
 	margin-bottom: 22px;
@@ -33,6 +34,31 @@ a#about{
 a#contact{
 	font-weight: bold;
 }
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
 
 .links a{
 	
@@ -239,17 +265,33 @@ img#youtube{
 
 
 @media(min-width:765px){
+	.header{
+		display: flex;
+		flex-direction: row;
+		height:75px;
+		justify-content:space-around;}
+	
+	#logo{
+		max-width: 100%;
+		margin-top:10px;
+		margin-left: 39px;}
+	
+	.links{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-self: flex-end;
+		max-width: 100%;}
+	
+	.links a {
+		margin:auto;}
+	
+	a#home , a#about , a#contact{
+		margin-right:40px;
+		margin-left: 40px;
+		margin-top:40px;}
 
-.header{
-	display: flex;
-	flex-direction: row;
-	height:75px;
-	justify-content:space-around;}
 
-#logo{
-	max-width: 100%;
-	margin-top:10px;
-	margin-left: 39px;}
 
 .links{
 	display: flex;
@@ -357,14 +399,19 @@ button{
 
 /* Desktop Viewpoint */
 
-@media(min-width: 1234px){
+@media(min-width: 1385px){
+.header{
+		display: flex;
+		flex-direction: row;
+		height:65px;
+		justify-content:space-around;}
+	
+#logo{
+max-width: 100%;
+margin-bottom:40px;
+margin-right: 900px;}
 
-	.header{
-		width:100%;
-		height:75px;}
 
-	#logo{
-		margin-right: 920px;}
 /* Contains All Top Content */
 	.bigdiv{
 		display: flex;
@@ -402,7 +449,7 @@ button{
 		flex-basis:45%;
 		width:812px;
 		height:100%;
-		margin-top:90px;}
+		margin-left: 1250px;}
 
 
 	footer{
