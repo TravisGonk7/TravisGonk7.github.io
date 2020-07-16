@@ -222,7 +222,8 @@ button{
 	border-color: white;
 	background-color:#26A682;
 	color:white;
-	font-size:20px;}
+	font-size:20px;
+border:none;}
 
 /* Thank You Text */
 h3{
@@ -558,7 +559,7 @@ h3{
 }
 
 /* Desktop ViewPoint Starts At 1322px*/
-@media(min-width: 1322px) {
+@media(min-width: 1273px) {
 
 .header{
 		display: flex;
@@ -652,7 +653,10 @@ img#bowling{
 }
 
 button{
-	margin-left: 100px;}
+	margin-left: 100px;
+font-size:27px;
+height:45px;
+width:230px;}
 
 img#fitness{
 	width:813px;

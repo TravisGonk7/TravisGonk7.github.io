@@ -399,7 +399,7 @@ button{
 
 /* Desktop Viewpoint */
 
-@media(min-width: 1385px){
+@media(min-width: 1024px){
 .header{
 		display: flex;
 		flex-direction: row;
@@ -433,6 +433,10 @@ margin-right: 900px;}
 	padding-left: 20px;
 	margin-top:150px;}
 
+	#b2{
+		border:none;
+	}
+
 
 	.location{
 		flex-basis:45%;
@@ -449,7 +453,7 @@ margin-right: 900px;}
 		flex-basis:45%;
 		width:812px;
 		height:100%;
-		margin-left: 1250px;}
+Margin-top:60px;}
 
 
 	footer{

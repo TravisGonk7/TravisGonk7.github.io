@@ -21,7 +21,7 @@
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
 }
-
+/* Fade Out Animation */
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -50,7 +50,9 @@
 
 a#home{
 	margin-bottom: 22px;
-	font-weight: bold;}
+	font-weight: bold;
+	-webkit-animation: fadeout 4s;
+}
 
 a#about{ 
 	margin-bottom:22px;}
@@ -402,7 +404,7 @@ img#iconsss{
 
 /* Desktop Viewpoint containing Adjustment For Viewpoint Change */
 
-@media(min-width: 1586px){
+@media(min-width: 1585px){
 	.header{
 	display: flex;
 	flex-direction: row;
