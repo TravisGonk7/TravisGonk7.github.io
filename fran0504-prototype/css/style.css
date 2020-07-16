@@ -17,8 +17,8 @@
 #logo{
 	width:88px;
 	height:54px;
-	opacity: 0.0;
-  	animation: fadeIn ease 10s;
+	  animation: fadeIn ease 10s;
+	  opacity: 0.0;
   	-webkit-animation: fadeIn ease 10s;
 }
 /* Fade Out Animation */
@@ -327,30 +327,29 @@ img#iconsss{
 	margin-left:150px;
 	margin-bottom:50px;
 }
-
-	h1{ font-size:72px;
+h1{ font-size:72px;
 		text-align: left;
 		margin-left: 10px;
 		line-height: 85px;}
 
-		#b1{
+#b1{
 			font-size:27px;}
 		
-		.button2{
+.button2{
 			margin-right:60px;
 
 			}
-	#b2{
+#b2{
 			width:230px;
 			font-size:27px;
 			height:45px;}
 
-	.button3{
+.button3{
 			justify-content:flex-start;
 			margin-left: 500px;
 			margin-top:-20px;
 			margin-bottom:40px;}
-	#b3{
+#b3{
 		width:230px;
 			font-size:27px;
 			height:45px;}
