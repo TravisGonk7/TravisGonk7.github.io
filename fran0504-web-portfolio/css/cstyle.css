@@ -64,13 +64,14 @@ img#bio{
     margin-top:80px;
 }
 form{
+    text-align:center;
     margin-top:110px;
 }
 
 label{
 	font-family: 'Raleway', sans-serif;
-	font-size: 19px;
-	line-height: 21px;
+	font-size: 13px;
+	line-height: 15px;
 	text-align: left;
 	font-weight: lighter;
 	color:white;
@@ -90,9 +91,23 @@ input{
 	font-size:12px;
 	text-align: left;
 	line-height: 19px;
-	margin-left: -5px;
     color:white;
     margin-top:9px;
+}
+
+input#fullname{
+    margin-left:20px;
+}
+input#phone-number{
+    margin-right:-20px;
+}
+
+input#email{
+    margin-right:-60px;
+}
+
+input#message1{
+    margin-right:-60px;
 }
 
 button{
@@ -138,4 +153,47 @@ button{
         margin-top:5px;
         padding-bottom:30px;}
 
+
+    
+
+    img#bio{
+        width:297px;}
+
+    h2,h3{
+        font-size:24px;
+        text-align: center;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    label{
+        font-size:20px;
+        line-height: 70px;
+        margin-right: 30px;;
+    }
+
+    input{font-size:20px;
+        text-align:center;
+        margin:auto;
+    }
+
+    input#fullname{
+        margin-right:-80px;
+    }
+    input#phone-number{
+        margin-left:35px;
+    }
+    input#email{
+        margin-right: -130px;
+    }
+    input#message1{
+        margin-right:-88px;
+    }
+
+    #submit{
+        font-size:20px;
+        text-align: center;
+    }
 }
