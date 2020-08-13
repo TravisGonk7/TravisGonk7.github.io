@@ -1,0 +1,141 @@
+.wrapper{
+    overflow-x: hidden;
+    width:100%;
+    margin:auto;
+    font-family: 'Oxygen', sans-serif;
+    font-weight:400;}
+
+header{
+margin-right:40px;
+margin-top: 30px;
+height:175px;
+width:auto;
+text-align: center;
+line-height: 30px;}
+
+nav ul li a{
+transition:0.2s;}
+
+nav ul li a:link,
+nav ul li a:visited{
+color:white;
+text-decoration: none;
+font-weight:bold;}
+
+nav ul li a:hover,
+nav ul li a:active{
+color:#A5FFD6;
+text-decoration:underline;
+font-weight:bold;}
+
+header ul{
+list-style-type: none; 
+}
+
+
+h1{text-align: center;
+color:white;
+font-size:24px;
+line-height: 24px;
+font-weight: bold;}
+
+h2,h3{font-size:12px;
+    font-weight: 400;
+color:white;}
+
+
+
+
+body{ 
+    background-image: url(../img/bg.jpeg)}
+
+.container{
+    display: flex;
+	flex-direction: row;
+    justify-content: center;}
+    
+    
+img#bio{
+        margin-left:10px;
+    }
+
+.p1{
+    margin-left:10px;
+    margin-top:80px;
+}
+form{
+    margin-top:110px;
+}
+
+label{
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	line-height: 21px;
+	text-align: left;
+	font-weight: lighter;
+	color:white;
+}
+
+fieldset{
+	border:none;
+}
+
+input{
+	border:none;
+	background-color: #eeee;
+	border-radius: 72px;
+	width:250px;
+	height: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-size:12px;
+	text-align: left;
+	line-height: 19px;
+	margin-left: -5px;
+    color:white;
+    margin-top:9px;
+}
+
+button{
+    margin-top:20px;
+	border-radius:40px;
+	text-align: center;
+	background: #eeeeee;
+	width:250px;
+	height: 40px;
+	box-shadow: 0px 10px 10px white;
+}
+/* Button Adjustment */
+#submit{
+    color:black;
+    border:none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	text-align: left;
+	box-shadow: 0px 10px 10px #124A3A80;
+}
+    
+
+
+
+
+
+@media(min-width:765px){
+    li{
+        float:right;}
+    
+    li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;}
+     h1{
+         text-align: center;
+         font-size:65px;
+        text-align: center;
+        line-height: 24px;
+        font-weight: bold;
+        margin-top:5px;
+        padding-bottom:30px;}
+
+}
