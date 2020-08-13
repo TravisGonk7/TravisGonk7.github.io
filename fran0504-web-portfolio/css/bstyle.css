@@ -68,13 +68,14 @@ body{
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                margin-left:50px;
+                margin-left:120px;
             margin-bottom:30px;}
 
     .p1, h2{
+        text-align: left;
         font-size:32px;
         margin-top:20px;
-        margin-right:100px;}
+        margin-right:120px;}
     
     .container2{
         display:flex;
@@ -84,10 +85,11 @@ body{
 
     }
 .p2, h3{
+    text-align:right;
     font-size:32px;
     order:2;
     margin-top:30px;
-    margin-left:100px;}
+    margin-left:60px;}
 
 
 
