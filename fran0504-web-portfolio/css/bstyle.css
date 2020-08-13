@@ -53,6 +53,7 @@ body{
     background-image: url(../img/bg.jpeg)}
 
 @media(min-width:765px){
+    
     li{
         float:right;}
 
@@ -63,32 +64,54 @@ body{
          padding: 14px 16px;
          text-decoration: none;}
     
-    img#jj{
-        width:322px;
-	    height:181px;
-	    margin-bottom: 40px;
-    }
-
     .container1{
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                margin-right:220px;
-            
-            }
-    .container1, h2{
-        margin-right:-390px;
-        margin-top:45px;
-        color:white;
-        font-size:24px;
-        text-align: center;
-        line-height: 24px;}
+                margin-left:50px;
+            margin-bottom:30px;}
+
+    .p1, h2{
+        font-size:32px;
+        margin-top:20px;
+        margin-right:100px;}
+    
+    .container2{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right:100px;
+
+    }
+.p2, h3{
+    font-size:32px;
+    order:2;
+    margin-top:30px;
+    margin-left:100px;}
 
 
-    }    
-        
-        
-        
-        
-        
-        
+
+
+
+.container3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left:50px;
+            margin-bottom:120px;
+
+}
+
+.p3, h4{
+    font-size:32px;
+    margin-top:20px;
+    margin-right:100px;
+     
+}
+
+
+
+
+
+
+}
