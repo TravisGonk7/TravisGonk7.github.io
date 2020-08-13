@@ -1,0 +1,101 @@
+.wrapper{
+			overflow-x: hidden;
+			width:100%;
+			margin:auto;
+			font-family: 'Oxygen', sans-serif;
+			font-weight:400;}
+
+header{
+		margin-top: 30px;
+		height:175px;
+		width:auto;
+		text-align: center;
+		line-height: 30px;}
+
+nav ul li a{
+	transition:0.2s;}
+
+nav ul li a:link,
+nav ul li a:visited{
+	color:white;
+	text-decoration: none;
+	font-weight:bold;}
+
+nav ul li a:hover,
+nav ul li a:active{
+	color:#A5FFD6;
+	text-decoration:underline;
+	font-weight:bold;}
+
+header ul{
+	list-style-type: none; 
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-size:24px;
+	text-align: center;
+	line-height: 24px;
+	font-weight: bold;
+}
+.container{ margin-bottom: 50px;
+  			display:flex;
+  			flex-wrap: wrap;
+  			justify-content: space-between;
+  			margin-top:30px;
+  			text-align: center;}
+  		
+  		.item{
+  			flex: 0 20%;
+  			margin-bottom: 2%;
+  			width:100px;
+  			height:100px;
+  		}
+
+body{ 
+	 background-image: url(../img/bg.jpeg)}
+
+@media(min-width:765px){
+
+li{
+	float:right;}
+
+li a {
+  		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;}
+ h1{
+ 	text-align: center;
+ 	font-size:65px;
+	text-align: center;
+	line-height: 24px;
+	font-weight: bold;
+ }
+
+  		
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
