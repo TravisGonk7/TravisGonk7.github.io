@@ -51,7 +51,12 @@ color:white;}
 
 body{ 
 	 background-image: url(../img/bg.jpeg)}
-
+footer{
+	margin-top:30px;
+    margin-bottom:30px;
+	margin-right:30px;
+	text-align:right;
+}
 
 @media(min-width:765px){
 
@@ -111,8 +116,8 @@ img#holder2{
 	text-align: center; 
 	font-size:24px;
 	color:white;
-margin-right:60px;
-margin-top:45px;}
+	margin-right:60px;
+	margin-top:45px;}
 
 
 
