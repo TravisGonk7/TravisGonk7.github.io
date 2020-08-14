@@ -63,7 +63,9 @@ body{
 	 background-image: url(../img/bg.jpeg)}
 
 @media(min-width:765px){
-
+	img#logo{
+		margin-right:240px;
+	}
 li{
 	float:right;}
 

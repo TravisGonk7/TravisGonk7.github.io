@@ -60,6 +60,10 @@ footer{
 
 @media(min-width:765px){
 
+	img#logo{
+		margin-right:240px;
+	}
+
 li{
 	float:right;}
 

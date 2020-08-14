@@ -54,6 +54,10 @@ body{
 
 @media(min-width:765px){
     
+    img#logo{
+        margin-right:240px;
+    }
+    
     li{
         float:right;}
 
@@ -67,49 +71,43 @@ body{
     .container1{
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
-                margin-left:120px;
-            margin-bottom:30px;}
+                justify-content: space-evenly;
+                margin-bottom:50px;}
+    img#jj{
+        margin-left:60px;}
 
     .p1, h2{
-        text-align: left;
+        text-align:center;
         font-size:32px;
-        margin-top:20px;
-        margin-right:120px;}
+    margin-right:50px;}
     
     .container2{
         display:flex;
         flex-direction: row;
         justify-content: center;
-        margin-right:100px;
+        justify-content: space-evenly;
+        margin-bottom:50px;}
+
+    
+    img#kevin{ margin-right:170px;
 
     }
 .p2, h3{
     text-align:right;
     font-size:32px;
     order:2;
-    margin-top:30px;
-    margin-left:60px;}
-
-
-
-
+margin-right:50px;}
 
 .container3{
             display: flex;
             flex-direction: row;
             justify-content: center;
-            margin-left:50px;
-            margin-bottom:120px;
-
-}
+            justify-content: space-evenly;
+            margin-bottom:50px;}
 
 .p3, h4{
     font-size:32px;
-    margin-top:20px;
-    margin-right:100px;
-     
-}
+margin-right:50px;}
 
 
 
